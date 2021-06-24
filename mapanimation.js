@@ -66,23 +66,6 @@ async function run(){
 	setTimeout(run, 15000);
 }
 
-// async function noBuses(){
-// 	const locations = await getBusLocations();
-	
-// 	if(locations == []){
-// 		element = document.getElementsByClassName('no-buses');
-// 		element.innerHTML = "There is no Buses in transit at this moment in MBTA Route 1. Come back in a few hours. Current Time: " + new Date().toUTCString();
-// 	}
-// 	setTimeout(()=>{
-// 		if(locations == []){
-// 			noBuses();
-// 		}
-// 	}, 1000);
-
-// }
-
-		
-
 // Request bus data from MBTA
 async function getBusLocations(){
 	const url = 'https://api-v3.mbta.com/vehicles?filter[route]=1&include=trip';

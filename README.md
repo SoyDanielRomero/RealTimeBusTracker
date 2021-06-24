@@ -1,5 +1,5 @@
 ## Real Time Bus Tracker 👨‍💻
-<img src='./img/bostonbus.jpg'>
+<img src='./bostonbus.jpg'>
 
 This is an exercise developed during MIT xPro Professional Certificate in Coding: Full Stack Development with MERN. 
 
@@ -18,7 +18,9 @@ To install this proyect in your machine, follow these steps:
 
 ## Usage 🚀
 
-To see this project running in live action please go to [Index.html](https://soydanielromero.github.io/assets/projects/coding/4-MIT-RealTimeBusTracker/index.html) and follow the instructions.
+- Once map is loaded, every 15 seconds the buses will be visible in it current location so you can see where it is and where it is going to.
+
+[Live Demo](https://soydanielromero.github.io/RealTimeBusTracker/)
 
 ## Support 🦸‍♂️️
 
@@ -26,7 +28,8 @@ If you have any question please send an email to: [hola@soydanielromero.com](mai
 
 ## Roadmap 🗺
 
-This is a coding exercise and there won't be any fixes or improvements.
+- Responsive suport
+- Alert when there is no bus in transit
 
 ## License information 👨‍⚖️
 
@@ -53,13 +56,11 @@ SOFTWARE.
 ## Files 📁
 
 - Root
+    - bostonbus.jpg
     - index.html
     - LICENSE
-    - README.md
-    - project details.html
-- /img
-    - bostonbus.jpg
-- /scripts
     - mapanimation.js
-- /styles
+    - project-details.html
+    - README.md
     - styles.css
+    
